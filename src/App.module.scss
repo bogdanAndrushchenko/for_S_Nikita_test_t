@@ -1,0 +1,23 @@
+.app{
+  display: grid;
+  grid-template: 100px 1fr /  1fr;;
+  grid-row-gap: 10px;
+  width: 90%;
+  height: 99vh;
+  padding: 0.2rem 1rem;
+  margin: auto;
+  overflow: auto;
+
+  form{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto ;
+  }
+
+}
